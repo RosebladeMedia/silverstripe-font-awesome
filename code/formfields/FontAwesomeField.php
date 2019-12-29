@@ -10,7 +10,7 @@ use SilverStripe\View\Requirements;
  */
 class FontAwesomeField extends TextField
 {
-    private static $version = '5.0.8';
+    private static $version = '5.12.0';
 
     /**
      * @return string
@@ -30,7 +30,7 @@ class FontAwesomeField extends TextField
         $this->addExtraClass('form-control icp icp-auto');
 
         // Libraries
-        Requirements::css('https://use.fontawesome.com/releases/v5.0.8/css/all.css');
+        Requirements::css('https://use.fontawesome.com/releases/v5.12.0/css/all.css');
         Requirements::css(FONT_AWESOME_DIR . '/client/dist/css/lib/fontawesome-iconpicker.min.css');
         Requirements::javascript(FONT_AWESOME_DIR . '/client/dist/js/lib/fontawesome-iconpicker.min.js');
 
